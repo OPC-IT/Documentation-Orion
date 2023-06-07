@@ -1,7 +1,7 @@
 # OPC-Demo-Docusaurus
 
 [![Github Action](https://github.com/OPC-IT/Documentation-Orion/actions/workflows/webpack.yml/badge.svg)](https://github.com/OPC-IT/Documentation-Orion/actions/workflows/webpack.yml) 
-[![https://badgen.net/badge/icon/appveyor?icon=appveyor&label](https://badgen.net/badge/icon/chrome?icon=chrome&label)](https://opc-it.github.io/Documentation-Orion/)
+[![Github Pages](https://badgen.net/badge/icon/Github%20Pages?icon=chrome&label&color=green)](https://opc-it.github.io/Documentation-Orion/)
 
 
 **Selection Criteria**
