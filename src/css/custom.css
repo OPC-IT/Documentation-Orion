@@ -32,7 +32,7 @@
 }
 
 /* For the search box plug-in: https://github.com/cmfcmf/docusaurus-search-local */
-div.dsla-search-field {
+/* div.dsla-search-field {
 	.aa-DetachedSearchButton {
 		width: 200px;
 		border-radius: 15px;
@@ -58,4 +58,4 @@ div.aa-DetachedFormContainer {
         border-color: var(--ifm-color-primary);
 		box-shadow: 0 0 0 0.2rem rgba(46, 133, 85, 0.25);
 	}
-}
+} */
