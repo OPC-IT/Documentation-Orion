@@ -50,7 +50,7 @@ const config = {
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					editUrl:
-						"https://github.com/SuoweiHu/OPC-Orion-Documentation/tree/main",
+						"https://github.com/"+organizationName+"/"+projectName+"/tree/main",
 				},
 				blog: false, // Optional: disable the blog plugin
 				theme: {
@@ -137,7 +137,7 @@ const config = {
 						items: [
 							{
 								label: "GitHub",
-								href: "https://github.com/SuoweiHu/OPC-Orion-Documentation",
+								href: "https://github.com/OPC-IT/Documentation-Orion",
 							},
 						],
 					},
