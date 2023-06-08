@@ -1,5 +1,6 @@
 ---
 title: "Paragraph Types"
+slug: "/content/paragraph"
 ---
 
 

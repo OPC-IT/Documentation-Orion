@@ -1,5 +1,6 @@
 ---
 title: "New Page Panel"
+slug: "/content/page"
 ---
 
 ## Basic Page

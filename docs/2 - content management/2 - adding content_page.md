@@ -1,5 +1,6 @@
 ---
 title: "Adding Content & Page"
+slug: "/content/add"
 ---
 
 ## Adding Content

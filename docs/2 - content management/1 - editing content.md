@@ -1,5 +1,6 @@
 ---
 title: "Editing Content & Page"
+slug: "/content/edit"
 ---
 
 # Editing Content & Page
