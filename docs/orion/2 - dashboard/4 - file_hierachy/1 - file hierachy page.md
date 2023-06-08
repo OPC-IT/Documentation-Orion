@@ -22,7 +22,7 @@ title: "Page"
         |_______\JavaScript
                         |_______SourceCode
                                     |_______dist
-                                    |_______src
+
 ```
 
 For the above files/directories:

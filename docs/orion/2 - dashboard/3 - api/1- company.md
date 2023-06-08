@@ -10,7 +10,7 @@ title: "/company"
 
 
 
-![2023.06.08 - 11_58_57 -  [Code-index.js — opc-website — Visual Studio Code — [Branch master]] -](../../../../../%E6%88%AA%E5%9B%BE/2023.06.08%20-%2011_58_57%20-%20%20%5BCode-index.js%20%E2%80%94%20opc-website%20%E2%80%94%20Visual%20Studio%20Code%20%E2%80%94%20%5BBranch%20master%5D%5D%20-.jpg)
+![3](assets/3.jpg)
 
 
 
