@@ -8,6 +8,15 @@ title: Site Overview
 
 This template includes everything necessary to run on [Lagoon](https://www.github.com/uselagoon/lagoon) (in both the local development environments or on hosted Lagoon clusters.) This project manages website dependencies with [Composer](https://getcomposer.org/). It is based on the [original Drupal Composer Template](https://github.com/drupal-composer/drupal-project),
 
+
+## Color Theme
+
+-   **Managed IT** (Green) : `#C0E980`
+-   **Cloud** (Dark Green) : `#61B39E`
+-   **Cyber Security** (Orange): `#E0B97F`
+-   **Web** (Purple): `#B3A1F5`
+
+
 ## Included Services
 
 This project contains the following services:

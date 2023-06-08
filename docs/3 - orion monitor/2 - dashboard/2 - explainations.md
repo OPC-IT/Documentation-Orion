@@ -31,4 +31,4 @@ Make sure you update the corresponding page (Drupal custom module: ConnectWise-M
 
 :::
 
-More details with regards to the API will be disucessed in the "[API Endpoint](./3%20-%20api/1-%20company.md)" section
+More details with regards to the API will be disucessed in the "API Endpoint" section
