@@ -19,7 +19,7 @@ Next you will need to setup the user with a required field `comapny_identifier` 
 
 :::info
 
-See page [Usage - Setting up Orion User](./usage.md) for instrudction of setting up user
+See "Setting up Orion User" for instrudction of setting up user
 
 :::
 

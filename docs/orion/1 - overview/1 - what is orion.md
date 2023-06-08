@@ -14,7 +14,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et lacus et nisl 
 :::info
 
 Only logged-in user with "**admin**" role have access to the Orion Module,
-please proceed to the section "[**Setup Orion User**](./2%20-%20setup_orion_user.md)" for more details.
+please proceed to the section "**Setup Orion User**" for more details.
 :::
 
 
