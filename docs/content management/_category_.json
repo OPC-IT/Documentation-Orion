@@ -1,6 +1,6 @@
 {
-  "label": "Docusaurus",
-  "position": 4,
+  "label": "Content Management",
+  "position": 2,
   "link": {
     "type": "generated-index"
   }

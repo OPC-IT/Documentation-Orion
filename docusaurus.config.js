@@ -71,7 +71,7 @@ const config = {
 				respectPrefersColorScheme: false,
 			},
 			navbar: {
-				title: "Orion Module",
+				// title: "Orion Module",
 				logo: {
 					alt: "My Site Logo",
 					src: "img/opc-logo.png",
