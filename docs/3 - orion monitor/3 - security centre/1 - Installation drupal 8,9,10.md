@@ -96,4 +96,59 @@ Lastly check to see your site monitoring on active by visiting "[https://opc.com
 
 
 
-### Exporting Settins 
+### Exporting Configuration "orion.settings.yml"
+
+The previous step of "changing orion setting" will make a modifification to the "configuration" of drupal site where the Orion Monitor is sitting on (aka the "[opc.com.au](opc.com.au)" site), consequently, there will be a mismatch between the producation filebase and the development firebase. More specifically, the file `config/sync/orion.settings.yml` will be different on `main`, `stage`, and `production` branch, and if nothing is done, then at the next feature change, the new changes to this file will be overriden by old version. 
+
+:::info
+
+To avoid that we will need to synchronize the changes to that `config/sync/orion.settings.yml` file to all the branches we have. 
+
+:::
+
+First, copy the changes we just made via the drupal backend 
+
+![image-20230608155431910](assets/image-20230608155431910.png)
+
+Then paste the changes to your `main` branch, and perform branch merging like you would usually do in development, aka, merging `main` to `stage`, then merging `stage` to `prod`. 
+
+![2023.06.08 - 15_56_52 -  [Google Chrome-OPC eBusiness  OPC Website · GitLab] -](assets/2023.06.08%20-%2015_56_52%20-%20%20%5BGoogle%20Chrome-OPC%20eBusiness%20%20OPC%20Website%20%C2%B7%20GitLab%5D%20-.jpg)
+
+![2023.06.08 - 16_00_03 -  [Google Chrome-branch merging main stage prod - Google Search] -](assets/2023.06.08%20-%2016_00_03%20-%20%20%5BGoogle%20Chrome-branch%20merging%20main%20stage%20prod%20-%20Google%20Search%5D%20-.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
