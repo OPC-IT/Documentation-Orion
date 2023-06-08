@@ -1,49 +1,40 @@
 ---
-title: "Installation (drupal 8/9/10^)"
+sidebar_order: 1
+title: "Website Monitoring Setup (drupal 7^)"
 ---
 
-### Pre-check for composer
 
-Before you proceeding to the following tutorial, you will have to make sure your website's drupal module is manged via composer. To do that you will need to login to you "CPanel" then proceed to "File Manager" and check if the file "`composer.json`" and "`composer.lock`" exists in the `public_html` folder.
 
-![2023.06.08 - 15_06_26 -  [Google Chrome-cPanel - Tools] -](assets/2023.06.08%20-%2015_06_26%20-%20%20%5BGoogle%20Chrome-cPanel%20-%20Tools%5D%20-.jpg)
 
-:::warning
 
-If the website is not managed by "composer" then you may use the manual installation process, similar to that of the "installation for druapl 7.0" (i.e. downloading the module manually and put that in "`public_html/module/custom/...`")
+# Website Monitoring Setup (drupal 7^)
+
+
+
+The reason for segregating a different tutorial for setting up Orion Module for "`drupal 7`" site is because it uses old & potentially deprecated modules, and is often non-composer managed, for that matter, we will manually download the extension's file and put that in the `/public_html/modules/custom` and the remainder of the installation process will be the exact same as that of the  "`drupal 8/9/10`" site.
+
+
+
+:::info
+
+Except for "Installing Dependency Module", the remainder steps "Configuring the Extension / Orion Setting" and "Exporting Configuration" will be identical to  "drupal 8/9/10" site.
 
 :::
-
-
-
----
 
 
 
 ### Installing Dependency Module
 
-In order to add the website to the Orion Monitor, you will first need to install the two dependent modules: “Vitals” and "Health Check" that will provide the necessary endpoint for Orion module. The following steps will guide you through installing them using composer.
-
-First find the relevant command for the most recent compatible version modules:
+As aforementioned, for drupal 7 and non-composer managed site, you will need to manually download the files. To do that you will need to proceed to the website for the "Vital" and "Health Check" module, and look for the most compatible version. For drupal 7 site, they are most likely to be listed at the bottom of the page, and is often marked to have vulnarbilities due to their deprecation.
 
 -   [Drupal Custom Module - Vital](https://www.drupal.org/project/vitals)
--   [Drupal Custom Module - Health Check](https://www.drupal.org/project/health_check)
+-    [Drupal Custom Module - Health Check](https://www.drupal.org/project/health_check)
 
-![2023.06.08 - 16_17_12 -  [Typora-1 - Installation drupal 8910.md] -](assets/2023.06.08%20-%2016_17_12%20-%20%20%5BTypora-1%20-%20Installation%20drupal%208910.md%5D%20-.jpg)
+![2023.06.08 - 16_11_01 -  [Google Chrome-Vitals  Drupal.org] -](assets/2023.06.08%20-%2016_11_01%20-%20%20%5BGoogle%20Chrome-Vitals%20%20Drupal.org%5D%20-.jpg)
 
-Secondly, you will need to open the terminal in your target website and install the modules with your previously copied commands (here we will use `composer require 'drupal/health_check:^3.0'` and `composer require 'drupal/vitals:^2.3'` as an example), this will download the relevant files for these modules, and put them into the proper directory `/public_html/module/custom`.
+Then, proceed to CPanel, paste and extract the downloaded two files for "vital" and "health checker" moduels at location `/public_html/modules/contrib`.
 
-
-
-![2023.06.08 - 15_16_28 -  [Google Chrome-cPanel - Tools] -](assets/2023.06.08%20-%2015_16_28%20-%20%20%5BGoogle%20Chrome-cPanel%20-%20Tools%5D%20-.jpg)
-
-
-
-:::warning
-
-Noting that this will not update the database, the drupal site will not have these two modules enabeld, you will guided to do it slightly later.
-
-:::
+![2023.06.08 - 16_14_53 -  [Google Chrome-cPanel - Tools] -](assets/2023.06.08%20-%2016_14_53%20-%20%20%5BGoogle%20Chrome-cPanel%20-%20Tools%5D%20-.jpg)
 
 
 
@@ -63,8 +54,6 @@ CacheDisable private /
 ![2023.06.08 - 15_20_58 -  [Google Chrome-cPanel - Tools] -](assets/2023.06.08%20-%2015_20_58%20-%20%20%5BGoogle%20Chrome-cPanel%20-%20Tools%5D%20-.jpg)
 
 ![2023.06.08 - 15_24_43 -  [Google Chrome-Extend  OPC] -](assets/2023.06.08%20-%2015_24_43%20-%20%20%5BGoogle%20Chrome-Extend%20%20OPC%5D%20-.jpg)
-
-
 
 
 
@@ -115,14 +104,6 @@ Then paste the changes to your `main` branch, and perform branch merging like yo
 ![2023.06.08 - 15_56_52 -  [Google Chrome-OPC eBusiness  OPC Website · GitLab] -](assets/2023.06.08%20-%2015_56_52%20-%20%20%5BGoogle%20Chrome-OPC%20eBusiness%20%20OPC%20Website%20%C2%B7%20GitLab%5D%20-.jpg)
 
 ![2023.06.08 - 16_00_03 -  [Google Chrome-branch merging main stage prod - Google Search] -](assets/2023.06.08%20-%2016_00_03%20-%20%20%5BGoogle%20Chrome-branch%20merging%20main%20stage%20prod%20-%20Google%20Search%5D%20-.jpg)
-
-
-
-
-
-
-
-
 
 
 
