@@ -10,7 +10,7 @@ title: "/company"
 
 
 
-![3](assets/3.jpg)
+![3](./assets/3.jpg)
 
 
 
