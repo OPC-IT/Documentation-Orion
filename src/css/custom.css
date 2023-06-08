@@ -46,13 +46,24 @@ div.dsla-search-field > div.aa-Autocomplete > button.aa-DetachedSearchButton > d
 }
 
 svg.aa-SubmitIcon {
-    color: grey;
+    color: grey !important;
 }
-div.aa-DetachedFormContainer > .aa-Form{
+
+
+div.aa-DetachedContainer.aa-DetachedContainer--modal{
+    border-radius: 15px;
+}
+div.aa-DetachedFormContainer{
+    border-radius: 15px;
+}
+
+div.aa-DetachedFormContainer > form.aa-Form{
     border-color: grey;
     box-shadow: 0 0 0 0.2rem rgba(46, 133, 85, 0.25);
+    border-radius: 15px;
 }
-div.aa-DetachedFormContainer > .aa-Form:focus {
+div.aa-DetachedFormContainer > form.aa-Form:focus {
     border-color: var(--ifm-color-primary);
     box-shadow: 0 0 0 0.2rem rgba(46, 133, 85, 0.25);
+    border-radius: 15px;
 }
