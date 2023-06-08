@@ -32,30 +32,29 @@
 }
 
 /* For the search box plug-in: https://github.com/cmfcmf/docusaurus-search-local */
-/* div.dsla-search-field {
-	.aa-DetachedSearchButton {
-		width: 200px;
-		border-radius: 15px;
-	}
-	.aa-DetachedSearchButton:focus {
-        border-color: var(--ifm-color-primary);
-		box-shadow: 0 0 0 0.2rem rgba(46, 133, 85, 0.25);
-    }
-	.aa-DetachedSearchButtonIcon {
-		color: grey;
-	}
+div.dsla-search-field > .aa-DetachedSearchButton {
+    width: 200px;
+    border-radius: 15px;
 }
-div.aa-DetachedFormContainer {
+div.dsla-search-field >.aa-DetachedSearchButton:focus {
+    border-color: var(--ifm-color-primary);
+    box-shadow: 0 0 0 0.2rem rgba(46, 133, 85, 0.25);
+}
 
-	.aa-SubmitIcon {
-		color: grey;
-	}
-    .aa-Form{
-        border-color: grey;
-		box-shadow: 0 0 0 0.2rem rgba(46, 133, 85, 0.25);
-    }
-	.aa-Form:focus {
-        border-color: var(--ifm-color-primary);
-		box-shadow: 0 0 0 0.2rem rgba(46, 133, 85, 0.25);
-	}
-} */
+div.dsla-search-field > .aa-DetachedSearchButtonIcon {
+    color: grey;
+}
+
+/* For the search box plug-in: https://github.com/cmfcmf/docusaurus-search-local */
+
+div.aa-DetachedFormContainer > .aa-SubmitIcon {
+    color: grey;
+}
+div.aa-DetachedFormContainer > .aa-Form{
+    border-color: grey;
+    box-shadow: 0 0 0 0.2rem rgba(46, 133, 85, 0.25);
+}
+div.aa-DetachedFormContainer > .aa-Form:focus {
+    border-color: var(--ifm-color-primary);
+    box-shadow: 0 0 0 0.2rem rgba(46, 133, 85, 0.25);
+}

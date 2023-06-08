@@ -28,7 +28,7 @@ const config = {
 	projectName: projectName, // Usually your repo name.
     // trailingSlash: false,
 
-	onBrokenLinks: "throw",
+	// onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 
 	// Even if you don't use internalization, you can use this field to set useful
@@ -46,6 +46,7 @@ const config = {
 			({
 				docs: {
 					routeBasePath: "/",
+                    sidebarCollapsed: false,
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
@@ -95,59 +96,61 @@ const config = {
 					//   },
 				],
 			},
-			footer: {
-				style: "dark",
-				links: [
-					{
-						title: "Docs",
-						items: [
-							// {
-							// 	label: "Docusaurus Tutorial",
-							// 	to: "/docusaurus/intro",
-							// },
-							{
-								label: "Orion - Dashboard",
-								to: "/",
-							},
-							{
-								label: "Orion - Security",
-								to: "/",
-							},
-							// {
-							// 	label: "Orion - Setting",
-							// 	to: "/",
-							// },
-						],
-					},
-					{
-						title: "Community",
-						items: [
-							{
-								label: "Stack Overflow",
-								href: "https://stackoverflow.com/questions/tagged/docusaurus",
-							},
-							{
-								label: "Discord",
-								href: "https://discordapp.com/invite/docusaurus",
-							},
-						],
-					},
-					{
-						title: "More",
-						items: [
-							{
-								label: "GitHub",
-								href: "https://github.com/OPC-IT/Documentation-Orion",
-							},
-						],
-					},
-				],
-				// copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-			},
+			// footer: {
+			// 	style: "dark",
+			// 	links: [
+			// 		{
+			// 			title: "Docs",
+			// 			items: [
+			// 				// {
+			// 				// 	label: "Docusaurus Tutorial",
+			// 				// 	to: "/docusaurus/intro",
+			// 				// },
+			// 				{
+			// 					label: "Orion - Dashboard",
+			// 					to: "/",
+			// 				},
+			// 				{
+			// 					label: "Orion - Security",
+			// 					to: "/",
+			// 				},
+			// 				// {
+			// 				// 	label: "Orion - Setting",
+			// 				// 	to: "/",
+			// 				// },
+			// 			],
+			// 		},
+			// 		{
+			// 			title: "Community",
+			// 			items: [
+			// 				{
+			// 					label: "Stack Overflow",
+			// 					href: "https://stackoverflow.com/questions/tagged/docusaurus",
+			// 				},
+			// 				{
+			// 					label: "Discord",
+			// 					href: "https://discordapp.com/invite/docusaurus",
+			// 				},
+			// 			],
+			// 		},
+			// 		{
+			// 			title: "More",
+			// 			items: [
+			// 				{
+			// 					label: "GitHub",
+			// 					href: "https://github.com/OPC-IT/Documentation-Orion",
+			// 				},
+			// 			],
+			// 		},
+			// 	],
+			// 	// copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+			// },
 			prism: {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
 			},
+
+
 		}),
 	plugins: [
 		[
