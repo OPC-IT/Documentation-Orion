@@ -25,13 +25,43 @@ In the previous two instructional documentation, we introduced how to setup a ne
 
 is in fact duplicating.
 
+
+
+### Intuition
+
 Copy-pasting and branch merging (first pushing to `main`, then merging `main` to `stage`, merging `stage` to `prod`) will override the configuration, and **you can directly edit the configuration file**. In another word, if you are a developer that is familiar to how the drupal configuration file works, you may straight edit the "orion.setting.yml" and skip the step of configuraing orion.
 
+
+
+### Preperation
 
 :::info
 Before you continue, you will need to read the [**previous website monitoring setup**](./website-setup-drupal7) (for the corresponding version of drupal).
 
 This document will only cover "**how to setup the orion configuration via the yaml file**", it will not include "**how to install the dependency module**", nor "**how to get the authentication token from the target site"**.
 :::
+
+
+
+To begin with, you should get the following entries ready:
+
+-   **Website Name**: any plain text you would like use to represent the website.
+-   **Website Address**: the url to the webiste (e.g. `https://opctest.com.au/`).
+-   **Website Vital Token**: the token you copy from the [vital's configuration](assets/2023.06.08%20-%2015_30_19%20-%20%20%5BGoogle%20Chrome-Extend%20%20OPC%5D%20-.jpg).
+
+
+
+### Setup via editing file 
+
+You will need to following the code scheme listed below, and add your website's monitor configuration into the file `/public_html/config/sync/orion.settings.yml`, you can initiate the change on the `main` branch, then merge the `main` branch to `stage`, `stage` to `prod` for the changes to take effect. 
+
+![image-20230609094717517](assets/image-20230609094717517.png)
+
+
+
+![image-20230609094652841](assets/image-20230609094652841.png)
+
+
+
 
 
