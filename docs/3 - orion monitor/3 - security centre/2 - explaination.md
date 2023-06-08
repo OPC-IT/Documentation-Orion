@@ -1,5 +1,6 @@
 ---
 title: "Explaination"
+slug: "/security-center/explaination"
 ---
 
 ## Sit anim qui anim

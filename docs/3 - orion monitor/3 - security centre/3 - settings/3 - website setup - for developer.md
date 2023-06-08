@@ -1,7 +1,7 @@
 ---
 sidebar_order: 3
 # title: "Website Monitoring Setup (alternative method for developers)"
-slug: website-setup-developer
+slug: /security-center/setting/website-setup-developer
 ---
 
 
@@ -51,9 +51,9 @@ To begin with, you should get the following entries ready:
 
 
 
-### Setup via editing file 
+### Setup via editing file
 
-You will need to following the code scheme listed below, and add your website's monitor configuration into the file `/public_html/config/sync/orion.settings.yml`, you can initiate the change on the `main` branch, then merge the `main` branch to `stage`, `stage` to `prod` for the changes to take effect. 
+You will need to following the code scheme listed below, and add your website's monitor configuration into the file `/public_html/config/sync/orion.settings.yml`, you can initiate the change on the `main` branch, then merge the `main` branch to `stage`, `stage` to `prod` for the changes to take effect.
 
 ![image-20230609094717517](assets/image-20230609094717517.png)
 
