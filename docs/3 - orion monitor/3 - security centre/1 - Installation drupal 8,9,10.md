@@ -2,8 +2,6 @@
 title: "Installation (drupal 8/9/10^)"
 ---
 
-# Installation (drupal 8/9/10^)
-
 ### Pre-check for composer
 
 Before you proceeding to the following tutorial, you will have to make sure your website's drupal module is manged via composer. To do that you will need to login to you "CPanel" then proceed to "File Manager" and check if the file "`composer.json`" and "`composer.lock`" exists in the `public_html` folder.
