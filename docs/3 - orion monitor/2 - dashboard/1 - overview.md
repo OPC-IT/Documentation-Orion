@@ -8,6 +8,10 @@ description: This file contains the logic flow for a Drupal module, providing a 
 # Installation
 The "Orion Dashboard" page is a in nature a **drupal custom module** build plug in, the logic flow of the module is denoted in the "[logic-flow diagram](assets/image-20230608105209780.png)" (link to the draw.io file: [2023.06.06 ConnectWise-Module-Page.drawio](./src/2023.06.06%20ConnectWise-Module-Page.drawio)).
 
+:::info
+Install the module as normal, see [official drupal installation guide](https://www.drupal.org/documentation/install/) for instructions.
+:::
+
  In order to make the orion dashboard work, you will need to install two module: `ConnectWise Manage - Page`, `ConnectWise Manage - Api`, one acting as the main entry point of user when they access the drupal page, and the other acting as the API to handle the backend logic, retriving the required data (for instance the company's name/contact/address when given id)
 
 You can enable the modules via the drupal admin: `site > administration > extend`, make sure you run `site_url/update.php` and clear the cache throughly before proceeding.

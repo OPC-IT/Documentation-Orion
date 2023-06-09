@@ -5,28 +5,28 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-const organizationName = "OPC-IT"
-const projectName = "Documentation-Orion"
+const organizationName = "OPC-IT";
+const projectName = "Documentation-Orion";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    onBrokenLinks: 'log',
+	onBrokenLinks: "log",
 	title: "Orion",
 	tagline: "Dinosaurs are cool",
 	favicon: "img/favicon.ico",
 
 	// Set the production url of your site here
-	url: "https://"+organizationName+".github.io",
+	url: "https://" + organizationName + ".github.io",
 
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: "/"+projectName,
+	baseUrl: "/" + projectName,
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: organizationName, // Usually your GitHub org/user name.
 	projectName: projectName, // Usually your repo name.
-    // trailingSlash: false,
+	// trailingSlash: false,
 
 	// onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
@@ -46,12 +46,16 @@ const config = {
 			({
 				docs: {
 					routeBasePath: "/",
-                    // sidebarCollapsed: false,
+					// sidebarCollapsed: false,
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					editUrl:
-						"https://github.com/"+organizationName+"/"+projectName+"/tree/main",
+						"https://github.com/" +
+						organizationName +
+						"/" +
+						projectName +
+						"/tree/main",
 				},
 				blog: false, // Optional: disable the blog plugin
 				theme: {
@@ -70,6 +74,11 @@ const config = {
 				defaultMode: "light",
 				// disableSwitch: true,
 				respectPrefersColorScheme: false,
+			},
+			docs: {
+				sidebar: {
+					hideable: true,
+				},
 			},
 			navbar: {
 				// title: "Orion Module",
@@ -149,8 +158,6 @@ const config = {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
 			},
-
-
 		}),
 	plugins: [
 		[
@@ -159,7 +166,7 @@ const config = {
 			{
 				indexDocs: true,
 				indexBlog: false,
-                language: "en"
+				language: "en",
 			},
 		],
 	],
