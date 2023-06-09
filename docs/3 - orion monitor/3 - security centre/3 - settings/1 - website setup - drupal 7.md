@@ -88,7 +88,7 @@ Lastly check to see your site monitoring on active by visiting "[https://opc.com
 
 ### Exporting Configuration "orion.settings.yml"
 
-The previous step of "changing orion setting" will make a modifification to the "configuration" of drupal site where the Orion Monitor is sitting on (aka the "[opc.com.au](opc.com.au)" site), consequently, there will be a mismatch between the producation filebase and the development firebase. More specifically, the file `config/sync/orion.settings.yml` will be different on `main`, `stage`, and `production` branch, and if nothing is done, then at the next feature change, the new changes to this file will be overriden by old version.
+The previous step of "changing orion setting" will make a modifification to the "configuration" of drupal site where the Orion Monitor is sitting on (aka the "[opc.com.au](https://opc.com.au/)" site), consequently, there will be a mismatch between the producation filebase and the development firebase. More specifically, the file `config/sync/orion.settings.yml` will be different on `main`, `stage`, and `production` branch, and if nothing is done, then at the next feature change, the new changes to this file will be overriden by old version.
 
 :::info
 
