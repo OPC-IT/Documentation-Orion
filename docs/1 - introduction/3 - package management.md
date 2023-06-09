@@ -2,6 +2,7 @@
 
 sidebar_position: 2
 title: "Package Manager"
+slug: "/overview/npm-package-manager"
 ---
 
 ## What composer handles?

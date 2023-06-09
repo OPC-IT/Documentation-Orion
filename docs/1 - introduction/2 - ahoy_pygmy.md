@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: "Local Environment"
+slug: "/overview/ahoy-pygmy"
 ---
 
 
