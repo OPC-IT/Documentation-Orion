@@ -1,6 +1,7 @@
 ---
 sidebar_order: 2
 title: "File Hierarchy"
+slug: "/docusaurus/file-hierachy"
 ---
 
 ### File Hierarchy

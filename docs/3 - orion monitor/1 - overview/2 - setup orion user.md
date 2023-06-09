@@ -1,6 +1,7 @@
 ---
 sidebar_order: 2
 title: "Setup User"
+slug: "/orion-monitor/overview/setup-user"
 ---
 
 

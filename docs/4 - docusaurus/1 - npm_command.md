@@ -1,6 +1,7 @@
 ---
 sidebar_order: 1
-title: "Basic Commands"
+title: "* Npm Commands"
+slug: "/docusaurus/npm-package-manager"
 ---
 
 ### Setup/Command Reference

@@ -1,6 +1,7 @@
 ---
 sidebar_order: 3
 title: "Global CSS Style"
+slug: "/docusaurus/css-styling"
 ---
 ### Global CSS Style
 

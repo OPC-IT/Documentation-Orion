@@ -2,6 +2,7 @@
 
 sidebar_order: 4
 title: "Docs-only-mode"
+slug: "/docusaurus/doc-only-mode"
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 sidebar_order: 1
 title: "What is Orion ?"
+slug: "/orion-monitor/overview/what-is-orion"
 ---
 
 
