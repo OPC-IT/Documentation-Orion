@@ -3,6 +3,7 @@
 sidebar_position: 1
 title: "/company"
 description: ""
+slug: "/orion-monitor/dashboard/api/company"
 ---
 
 

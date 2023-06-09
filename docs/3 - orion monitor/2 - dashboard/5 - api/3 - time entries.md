@@ -2,6 +2,7 @@
 sidebar_position: 3
 title: "/time_entries"
 description: ""
+slug: "/orion-monitor/dashboard/api/time-entries"
 ---
 
 

@@ -2,6 +2,7 @@
   "label": "Api Reference",
   "position": 5,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "slug": "/orion-monitor/dashboard/api"
   }
 }
