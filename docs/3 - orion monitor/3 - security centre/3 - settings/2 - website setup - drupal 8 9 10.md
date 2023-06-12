@@ -1,7 +1,7 @@
 ---
 sidebar_order: 2
 # title: "Website Monitoring Setup (drupal 8,9,10^)"
-slug: /security-center/setting/website-setup-drupal8-9-10
+slug: /orion-monitor/security-center/setting/website-setup-drupal8-9-10
 ---
 
 

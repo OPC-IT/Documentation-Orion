@@ -1,7 +1,7 @@
 ---
 sidebar_order: 3
 # title: "Website Monitoring Setup (alternative method for developers)"
-slug: /security-center/setting/website-setup-developer
+slug: /orion-monitor/security-center/setting/website-setup-developer
 ---
 
 

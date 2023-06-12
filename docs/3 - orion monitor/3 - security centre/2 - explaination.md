@@ -1,6 +1,6 @@
 ---
 title: "Explaination"
-slug: "/security-center/explaination"
+slug: "/orion-monitor/security-center/explaination"
 ---
 
 ## Sit anim qui anim

@@ -1,12 +1,12 @@
 ---
 sidebar_position: 1
-slug: "/orion-monitor/dashboard/overview"
+slug: "/orion-monitor/dashboard/installation"
 description: This file contains the logic flow for a Drupal module, providing a detailed overview of how the module works and how it interacts with the Drupal platform. The logic flow diagram breaks down the module's functionality into a series of steps and illustrates how data flows between these steps.
 
 ---
 
 # Installation
-The "Orion Dashboard" page is a in nature a **drupal custom module** build plug in, the logic flow of the module is denoted in the "[logic-flow diagram](assets/image-20230608105209780.png)" (link to the draw.io file: [2023.06.06 ConnectWise-Module-Page.drawio](./src/2023.06.06%20ConnectWise-Module-Page.drawio)).
+The "Orion Dashboard" page is in nature a **drupal custom module**, the logic flow of the module is denoted in the "[logic-flow diagram](assets/image-20230608105209780.png)" (link to the draw.io file: [2023.06.06 ConnectWise-Module-Page.drawio](./src/2023.06.06%20ConnectWise-Module-Page.drawio)).
 
 :::info
 Install the module as normal, see [official drupal installation guide](https://www.drupal.org/documentation/install/) for instructions.
