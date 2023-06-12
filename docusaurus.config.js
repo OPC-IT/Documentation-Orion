@@ -20,7 +20,8 @@ const config = {
 
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: "/" + projectName,
+	baseUrl: "/"  + projectName,
+	// baseUrl: "/",
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
@@ -70,6 +71,7 @@ const config = {
 		({
 			// Replace with your project's social card
 			image: "img/docusaurus-social-card.jpg",
+            metadata: [{name: 'keywords', content: 'docs, orion, opc, it, documentation, security, dashboard, setting'}],
 			colorMode: {
 				defaultMode: "light",
 				// disableSwitch: true,
