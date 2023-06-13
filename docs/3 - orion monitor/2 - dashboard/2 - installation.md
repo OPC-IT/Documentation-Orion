@@ -1,14 +1,12 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 slug: "/orion-monitor/dashboard/installation"
 description: This file contains the logic flow for a Drupal module, providing a detailed overview of how the module works and how it interacts with the Drupal platform. The logic flow diagram breaks down the module's functionality into a series of steps and illustrates how data flows between these steps.
 
 ---
 
 # Installation
-The "Orion Dashboard" is in nature a **drupal custom module**, the logic flow of the module is denoted in the "[logic-flow diagram](assets/image-20230608105209780.png)" (link to the draw.io file: [2023.06.06 ConnectWise-Module-Page.drawio](./src/2023.06.06%20ConnectWise-Module-Page.drawio)).
 
-![2023.06.13 - 09_24_41 -  [Code-█ ฅ^•ﻌ•^ฅ █ █ がんばれ! █] -](assets/djlaksjdlkasjdlkasjdlkasda.jpg)
 
 
 :::info
@@ -25,11 +23,19 @@ Next you will need to setup the user with a required field `comapny_identifier` 
 
 ![2023.06.08 - 10_56_49 -  [Google Chrome-CW Module - Dashboard  OPC] -](assets/2023.06.08%20-%2010_56_49%20-%20%20%5BGoogle%20Chrome-CW%20Module%20-%20Dashboard%20%20OPC%5D%20-.jpg)
 
-:::info
+:::warning
 
-Search "orion user" for instrudction of setting up user
+
+
+Before proceeding search "orion user" for instrudction of how to configure this entry user. The orion dashboard will not work if a user has no "field_company_id" !!
+
+
 
 :::
+
+
+
+
 
 Then you may proceed to the URL to view the module taking effect
 

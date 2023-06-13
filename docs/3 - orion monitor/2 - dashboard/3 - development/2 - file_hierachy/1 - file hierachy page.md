@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: "Page"
-slug: "/orion-monitor/dashboard/file-hierarchy/page"
+slug: "/orion-monitor/dashboard/devs/file-hierarchy/page"
 ---
 
 

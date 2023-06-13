@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: "/ticket"
 description: ""
-slug: "/orion-monitor/dashboard/api/ticket"
+slug: "/orion-monitor/dashboard/devs/api/ticket"
 ---
 
 

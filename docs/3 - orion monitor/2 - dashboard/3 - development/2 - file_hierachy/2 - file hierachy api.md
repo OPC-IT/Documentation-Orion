@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: "API"
-slug: "/orion-monitor/dashboard/file-hierarchy/api"
+slug: "/orion-monitor/dashboard/devs/file-hierarchy/api"
 ---
 
 

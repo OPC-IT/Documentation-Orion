@@ -1,11 +1,12 @@
 ---
 title: "Explaination"
+sidebar_order: 1
 slug: "/orion-monitor/security-center/explaination"
 ---
 
 
 
-# Explaination 
+# Explaination
 
 The "**Orion Security**" module serves the fundamental purpose of monitoring a website and providing vital information such as its HTTP status (active or down), PHP version, CMS version, pending updates, and pending security updates. This monitoring process enables a company's maintainer to keep track of the website's current status and promptly perform updates and patches whenever necessary. By utilizing this module, the maintainer can ensure that the website remains secure, up-to-date, and fully functional, thereby enhancing the overall user experience.
 

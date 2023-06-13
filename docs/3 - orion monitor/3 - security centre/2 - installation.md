@@ -1,5 +1,5 @@
 ---
-sidebar_order: 1
+sidebar_order: 2
 title: "Installation"
 slug: "/orion-monitor//security-center/installation"
 ---

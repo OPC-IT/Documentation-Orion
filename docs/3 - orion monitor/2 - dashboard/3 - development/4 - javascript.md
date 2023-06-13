@@ -1,7 +1,7 @@
 ---
-sidebar_position: 2
-slug: "/orion-monitor/dashboard/develop-deploy"
-title: "Development & Deployment"
+sidebar_position: 4
+slug: "/orion-monitor/dashboard/dev/javascript"
+title: "Javascript"
 ---
 
 ### Development
