@@ -6,7 +6,10 @@ description: This file contains the logic flow for a Drupal module, providing a 
 ---
 
 # Installation
-The "Orion Dashboard" page is in nature a **drupal custom module**, the logic flow of the module is denoted in the "[logic-flow diagram](assets/image-20230608105209780.png)" (link to the draw.io file: [2023.06.06 ConnectWise-Module-Page.drawio](./src/2023.06.06%20ConnectWise-Module-Page.drawio)).
+The "Orion Dashboard" is in nature a **drupal custom module**, the logic flow of the module is denoted in the "[logic-flow diagram](assets/image-20230608105209780.png)" (link to the draw.io file: [2023.06.06 ConnectWise-Module-Page.drawio](./src/2023.06.06%20ConnectWise-Module-Page.drawio)).
+
+![2023.06.13 - 09_24_41 -  [Code-█ ฅ^•ﻌ•^ฅ █ █ がんばれ! █] -](assets/djlaksjdlkasjdlkasjdlkasda.jpg)
+
 
 :::info
 Install the module as normal, see [official drupal installation guide](https://www.drupal.org/documentation/install/) for instructions.
@@ -24,7 +27,7 @@ Next you will need to setup the user with a required field `comapny_identifier` 
 
 :::info
 
-See "Setting up Orion User" for instrudction of setting up user
+Search "orion user" for instrudction of setting up user
 
 :::
 
