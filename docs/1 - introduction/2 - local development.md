@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: "Local Environment"
-slug: "/overview/ahoy-pygmy"
+slug: "/overview/local-env"
 ---
 
 In order to run a instance of the OPC.IT website on your local environment (aka running it on some port of your local machine, for instance 0.0.0.0:80 or 127.0.0.1:80) You will first need to get the source code of the website onto your local machine via VCS (Version Control Software, here we use Gitlab), then use the `pygmy` to start all the required (dependent) Docker containers and add the ssh key, use the `ahoy` to run a customized workflow to build/initiate/run the main Docker containers, and lastly also use `ahoy` to import the database of the production to your local environment.
@@ -26,7 +26,7 @@ The workflow of `ahoy` are defined in the file `.ahoy.yml` located on the root d
 
 
 
-A more detailed work flow will be introduced up next. 
+A more detailed work flow will be introduced up next.
 
 
 
@@ -34,7 +34,7 @@ A more detailed work flow will be introduced up next.
 
 ### 1 - Version Control (Gitlab)
 
-To begin with, if you wish to make any changes to the `main` branch, you should always make a new branch from the `main`, and start developing based on the new branch; Here we'll assume there's a broken issue on the Orion Monitoring, and we would like to fix it with some code.... Hence we create the new branch `Orion-Fix-FailedToFetchHttpErr` from `main` and clone it to our local machine. 
+To begin with, if you wish to make any changes to the `main` branch, you should always make a new branch from the `main`, and start developing based on the new branch; Here we'll assume there's a broken issue on the Orion Monitoring, and we would like to fix it with some code.... Hence we create the new branch `Orion-Fix-FailedToFetchHttpErr` from `main` and clone it to our local machine.
 
 ![2023.06.13 - 15_51_34 -  [Google Chrome-OPC eBusiness  OPC Website · GitLab] -](assets/daskldjklasda.jpg)
 
@@ -50,11 +50,11 @@ After getting the source code onto your local device, you will need to crank up 
 
 
 
-:::info Ahoy up 
+:::info Ahoy up
 
 
 
-Executing the command `ahoy up` is equivalant of running a series of comamnds as follows: 
+Executing the command `ahoy up` is equivalant of running a series of comamnds as follows:
 
 ```
 docker-compose up -d &&
@@ -72,7 +72,7 @@ A full list of  `ahoy`  workflow are defined in the file `.ahoy.yml` located on 
 
 :::info Site URL
 
-The URL is defined in the `docker-compose.yml` file as the follows: 
+The URL is defined in the `docker-compose.yml` file as the follows:
 
 ![dashjdkhasjk](assets/dashjdkhasjk.jpg)
 
@@ -100,7 +100,7 @@ Noting that at this point although your website has been ready at [http://opc-we
 
 
 
-Lastly, you will need to import the database of the website, (of which you can get the `.sql/.mysql` file via exporting from the production environemnt's CPanel phpMyAdmin), via the `ahoy` workflow of `ahoy mysql-import "{$path_to_file}"` (which will be equivalant to running the database import command inside the Docker container `docker-compose exec cli bash -c 'drush sql-drop' && docker-compose exec -T cli bash -c 'drush sql-cli' < "{$path_to_file}"`). This will import everything that is drupal content related within the production environemnt to your local machine, alike the following shown. 
+Lastly, you will need to import the database of the website, (of which you can get the `.sql/.mysql` file via exporting from the production environemnt's CPanel phpMyAdmin), via the `ahoy` workflow of `ahoy mysql-import "{$path_to_file}"` (which will be equivalant to running the database import command inside the Docker container `docker-compose exec cli bash -c 'drush sql-drop' && docker-compose exec -T cli bash -c 'drush sql-cli' < "{$path_to_file}"`). This will import everything that is drupal content related within the production environemnt to your local machine, alike the following shown.
 
 
 
@@ -130,9 +130,9 @@ Similarly, if you have any drupal configuration, you can import it via `ahoy dru
 
 
 
-Similarly you are able to run other `drush` command with the proxy of `ahoy drush`. 
+Similarly you are able to run other `drush` command with the proxy of `ahoy drush`.
 
-For example `ahoy drush cr`. 
+For example `ahoy drush cr`.
 
 
 
